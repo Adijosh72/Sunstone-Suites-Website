@@ -70,7 +70,7 @@
       <h1 class="hero__title">
         <span>A Sunlit</span>
         <span class="italic">Sanctuary</span>
-        <span>on the Konkan Coast</span>
+        <span>in Ratnagiri</span>
       </h1>
 
       <div class="hero__footer">
@@ -82,10 +82,15 @@
         </div>
 
         <p class="hero__copy">
-          A boutique retreat in the heart of Ratnagiri — spacious suites,
-          warm hospitality, and the Konkan coast at your doorstep.
+          A boutique address in the heart of the city — spacious suites,
+          warm hospitality, and the Konkan's beaches a short drive away.
         </p>
       </div>
+
+      <a href="#reserve" class="hero__book">
+        <span>Book Now</span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+      </a>
 
       <a href="#about" class="hero__scroll" aria-label="Scroll to explore">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true"><path d="M12 4v16m0 0l-6-6m6 6l6-6"/></svg>
@@ -228,24 +233,11 @@
       </li>
     </ul>
 
-    <!-- In-room dining — framed as a feature -->
-    <aside class="dining">
-      <div class="dining__badge">In-Room Dining</div>
-      <h3 class="dining__title">
-        Served in the quiet of<br/><span class="italic">your own room.</span>
-      </h3>
-      <p class="dining__copy">
-        Breakfast is complimentary and served downstairs. Through the day,
-        choose from a curated selection of partner kitchens — hot meals, local
-        specialties and comfort food, brought up to your door. No restaurant floor,
-        no waiting lists, no interruptions. Just dinner, your way.
-      </p>
-    </aside>
   </section>
 
   <!-- ============== EXPLORE ============== -->
   <section class="explore" id="explore">
-    <div class="section__label"><span>04</span> Explore Ratnagiri</div>
+    <div class="section__label"><span>04</span> Explore</div>
     <h2 class="explore__headline">The Konkan,<br/><span class="italic">a short drive away.</span></h2>
 
     <ul class="explore__grid">
@@ -300,17 +292,11 @@
         <footer><cite>S. Patkar</cite><span>Google · 6 months ago</span></footer>
       </blockquote>
 
-      <blockquote class="review">
+      <div class="review review--combined">
         <div class="review__stars">★★★★★</div>
-        <p>Sunstone Suites offers luxurious rooms at budget friendly rates.</p>
-        <footer><cite>Verified Guest</cite><span>Google</span></footer>
-      </blockquote>
-
-      <blockquote class="review">
-        <div class="review__stars">★★★★★</div>
-        <p>Good service, clean rooms, and the staff is very sweet. Highly recommend.</p>
-        <footer><cite>Verified Guest</cite><span>Google</span></footer>
-      </blockquote>
+        <p class="review__quote">"Sunstone Suites offers luxurious rooms at budget friendly rates."</p>
+        <p class="review__quote">"Good service, clean rooms, and the staff is very sweet. Highly recommend."</p>
+      </div>
     </div>
   </section>
 
@@ -335,12 +321,25 @@
     <div class="reserve__ota">
       <span class="reserve__ota-label">Also available on</span>
       <div class="reserve__ota-links">
-        <a href="https://www.makemytrip.com/hotels/sunstone_suites_by_jagrut_retreats-details-ratnagiri.html" target="_blank" rel="noopener" class="ota ota--mmt">
-          <span class="ota__brand">MakeMyTrip</span>
+        <a href="https://www.makemytrip.com/hotels/sunstone_suites_by_jagrut_retreats-details-ratnagiri.html" target="_blank" rel="noopener" class="ota" aria-label="Book on MakeMyTrip">
+          <svg class="ota__logo" viewBox="0 0 200 48" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <defs>
+              <linearGradient id="mmt-grad" x1="0" y1="0" x2="1" y2="0">
+                <stop offset="0" stop-color="#eb2026"/>
+                <stop offset="1" stop-color="#f58223"/>
+              </linearGradient>
+            </defs>
+            <text x="0" y="34" fill="url(#mmt-grad)" font-family="Arial Black, Helvetica Neue, Helvetica, Arial, sans-serif" font-weight="900" font-size="30" letter-spacing="-1.2" font-style="italic">make</text>
+            <text x="76" y="34" fill="url(#mmt-grad)" font-family="Arial Black, Helvetica Neue, Helvetica, Arial, sans-serif" font-weight="900" font-size="30" letter-spacing="-1.2" font-style="italic">my</text>
+            <text x="118" y="34" fill="url(#mmt-grad)" font-family="Arial Black, Helvetica Neue, Helvetica, Arial, sans-serif" font-weight="900" font-size="30" letter-spacing="-1.2" font-style="italic">trip</text>
+          </svg>
           <span class="ota__arrow" aria-hidden="true">→</span>
         </a>
-        <a href="https://www.agoda.com/en-in/sunstone-suites/hotel/kurli-in.html?cid=1844104&ds=ZaOPo3RSo1PM5Xup" target="_blank" rel="noopener" class="ota ota--agoda">
-          <span class="ota__brand">Agoda</span>
+        <a href="https://www.agoda.com/en-in/sunstone-suites/hotel/kurli-in.html?cid=1844104&ds=ZaOPo3RSo1PM5Xup" target="_blank" rel="noopener" class="ota" aria-label="Book on Agoda">
+          <svg class="ota__logo" viewBox="0 0 140 48" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <text x="0" y="36" fill="#D20A24" font-family="Avenir Next, Avenir, Helvetica Neue, Arial, sans-serif" font-weight="800" font-size="36" letter-spacing="-1">agoda</text>
+            <circle cx="19" cy="12" r="3.5" fill="#D20A24"/>
+          </svg>
           <span class="ota__arrow" aria-hidden="true">→</span>
         </a>
       </div>
